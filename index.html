@@ -13,26 +13,108 @@
 </head>
 
 <body>
-    <div class="container">
-        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-        <div class="row">
-            <div class="col-12 col-md-8 bg-primary">.col-12 .col-md-8</div>
-            <div class="col-6 col-md-4 bg-success">.col-6 .col-md-4</div>
+
+    <div class="container d-flex bg-info" style="height: 600px;">
+
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-4 bg-danger">
+                    One of two columns
+                </div>
+                <div class="col-4 bg-info">
+                    One of two columns
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-4 bg-success">
+                    One of two columns
+                </div>
+                <div class="col-4 bg-warning">
+                    One of two columns
+                </div>
+            </div>
+            <div class="row justify-content-end">
+                <div class="col-4 bg-info">
+                    One of two columns
+                </div>
+                <div class="col-4 bg-success">
+                    One of two columns
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-4 bg-success">
+                    One of two columns
+                </div>
+                <div class="col-4 bg-info">
+                    One of two columns
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-4 bg-danger">
+                    One of two columns
+                </div>
+                <div class="col-4 bg-warning">
+                    One of two columns
+                </div>
+            </div>
         </div>
 
-        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-        <div class="row">
-            <div class="col-6 col-md-4 bg-warning">.col-6 .col-md-4</div>
-            <div class="col-6 col-md-4 bg-primary">.col-6 .col-md-4</div>
-            <div class="col-6 col-md-4 bg-success">.col-6 .col-md-4</div>
-        </div>
 
-        <!-- Columns are always 50% wide, on mobile and desktop -->
-        <div class="row">
-            <div class="col-6 bg-primary">.col-6</div>
-            <div class="col-6 bg-success">.col-6</div>
+        <!-- <div class="row">
+            <div class="col-4 align-self-start bg-danger">
+                One of three columns
+            </div>
+            <div class="col-4 align-self-center bg-warning">
+                One of three columns
+            </div>
+            <div class="col-4 align-self-end bg-success">
+                One of three columns
+            </div>
+        </div> -->
+
+
+
+        <!-- <div class="row align-items-start">
+            <div class="col bg-success">
+                One of three columns
+            </div>
+            <div class="col bg-warning">
+                One of three columns
+            </div>
+            <div class="col bg-danger">
+                One of three columns
+            </div>
         </div>
+        <div class="row align-items-center">
+            <div class="col bg-danger">
+                One of three columns
+            </div>
+            <div class="col bg-success">
+                One of three columns
+            </div>
+            <div class="col bg-warning">
+                One of three columns
+            </div>
+        </div>
+        <div class="row align-items-end">
+            <div class="col bg-success">
+                One of three columns
+            </div>
+            <div class="col bg-info">
+                One of three columns
+            </div>
+            <div class="col bg-danger">
+                One of three columns
+            </div>
+        </div> -->
     </div>
+
+
+
+
+
+
+
 
     <!-- JS supporting Bootstrap -->
 
