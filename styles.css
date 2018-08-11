@@ -1,4 +1,4 @@
-@media (min-width: 576px){
+/* @media (min-width: 576px){
     body {
         background-color: aqua;
     }
@@ -16,5 +16,11 @@
 @media (min-width: 1200px){
     body {
         background-color: brown;
+    }
+} */
+                                        
+@media (min-width: 768px){
+    body {
+        background-color: bisque;
     }
 }
